@@ -1,0 +1,23 @@
+page {
+  width: 21cm;
+  height: 29.7cm;
+  background: white;
+  display: block;
+  margin: 0;
+  margin-bottom: 0.1cm;
+  box-shadow: 0 0 0.1cm rgba(0,0,0,0.5);
+}
+page[size="A4"] {
+  width: 21cm;
+  height: 29.7cm;
+  margin: 0.1cm 0.1cm 0.1cm 0.1cm ;
+  border-radius: 1px;
+  background: white;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  
+}
+page[size="A4"][layout="portrait"] {
+  width: 29.7cm;
+  height: 21cm;  
+
+}
